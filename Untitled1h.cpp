@@ -10,16 +10,16 @@ int main()
 	suma=0;
 	for (i=1; i<=4; i++)
 	{
-	cout << "Dime el numero " << i << ": ";
+	cout << "Tell me a number " << i << ": ";
 	cin >> datos[i];
 	suma=suma+datos[i];
 	}
 	media=suma/4;
-	cout << "La media aritmética de ";
+	cout << "The arithmetic average of ";
 	for (i=1; i<=4; i++)
 	{
 	cout << datos[i] << " ";
 	}
-	cout << "es " << media << endl;
+	cout << "is " << media << endl;
 	return 0;
 }
